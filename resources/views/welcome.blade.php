@@ -236,7 +236,7 @@
 
                         <div class="btn-box">
 
-                            <a href="buy-ticket.html" class="theme-btn btn-style-one"><span class="btn-title">Get Tickets</span></a>
+                            <a href="#" class="theme-btn btn-style-one"><span class="btn-title">Get Tickets</span></a>
 
                         </div>
 
@@ -559,33 +559,33 @@
 
 <!-- Color Palate / Color Switcher -->
 
-<div class="color-palate">
+{{--<div class="color-palate">--}}
 
-    <div class="color-trigger">
+{{--    <div class="color-trigger">--}}
 
-        <i class="fa fa-cog"></i>
+{{--        <i class="fa fa-cog"></i>--}}
 
-    </div>
+{{--    </div>--}}
 
-    <div class="color-palate-head">
+{{--    <div class="color-palate-head">--}}
 
-        <h6>Choose Your Demo</h6>
+{{--        <h6>Choose Your Demo</h6>--}}
 
-    </div>
+{{--    </div>--}}
 
-    <ul class="box-version option-box"> <li>Full width</li> <li class="box">Boxed</li> </ul>
+{{--    <ul class="box-version option-box"> <li>Full width</li> <li class="box">Boxed</li> </ul>--}}
 
-    <ul class="rtl-version option-box"> <li>LTR Version</li> <li class="rtl">RTL Version</li> </ul>
+{{--    <ul class="rtl-version option-box"> <li>LTR Version</li> <li class="rtl">RTL Version</li> </ul>--}}
 
-    <div class="palate-foo">
+{{--    <div class="palate-foo">--}}
 
-        <span>You will find much more options for colors and styling in admin panel. This color picker is used only for demonstation purposes.</span>
+{{--        <span>You will find much more options for colors and styling in admin panel. This color picker is used only for demonstation purposes.</span>--}}
 
-    </div>
+{{--    </div>--}}
 
-    <a href="#" class="purchase-btn">Purchase now</a>
+{{--    <a href="#" class="purchase-btn">Purchase now</a>--}}
 
-</div><!-- End Color Switcher -->
+{{--</div><!-- End Color Switcher -->--}}
 
 
 
