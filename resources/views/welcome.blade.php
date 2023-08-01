@@ -601,7 +601,7 @@
 
         <div class="search-form">
 
-            <form method="post" action="https://expert-themes.com/html/eventrox/index.html">
+            <form method="post" action="#">
 
                 <div class="form-group">
 
@@ -623,7 +623,7 @@
 
             <h3>Recent Search Keywords</h3>
 
-            <ul class="recent-searches">
+            {{--<ul class="recent-searches">
 
                 <li><a href="#">Seo</a></li>
 
@@ -635,7 +635,7 @@
 
                 <li><a href="#">Conferance</a></li>
 
-            </ul>
+            </ul>--}}
 
 
 
