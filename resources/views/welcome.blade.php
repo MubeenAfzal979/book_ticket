@@ -535,7 +535,7 @@
 
                     <div class="copyright-text">
 
-                        <p>© Copyright 2023 All Rights Reserved by <a href="index.html">Expert-Themes</a></p>
+                        <p>© Copyright 2023 All Rights Reserved by <a href="">N1 Mega Event</a></p>
 
                     </div>
 
