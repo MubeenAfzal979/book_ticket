@@ -40,7 +40,152 @@
 
     <!--[if lt IE 9]><script src="{{asset('theme/js/respond.js')}}"></script><![endif]-->
 
+    <style>
 
+        .ticket {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 700px;
+            margin: 20px auto;
+
+        .stub, .check {
+            box-sizing: border-box;
+        }
+
+        }
+
+        .stub {
+            background: #ef5658;
+            height: 250px;
+            width: 250px;
+            color: white;
+            padding: 20px;
+            position: relative;
+
+        &:before {
+             content: '';
+             position: absolute;
+             top: 0; right: 0;
+             border-top: 20px solid #ffffff;
+             border-left: 20px solid #000000;
+             width: 0;
+         }
+        &:after {
+             content: '';
+             position: absolute;
+             bottom: 0; right: 0;
+             border-bottom: 20px solid #ffffff;
+             border-left: 20px solid #000000;
+             width: 0;
+         }
+
+        .top {
+            display: flex;
+            align-items: center;
+            height: 40px;
+            text-transform: uppercase;
+
+        .line {
+            display: block;
+            background: #fff;
+            height: 40px;
+            width: 3px;
+            margin: 0 20px;
+        }
+        .num {
+            font-size: 10px;
+        span {
+            color: #000;
+        }
+        }
+        }
+        .number {
+            position: absolute;
+            left: 40px;
+            font-size: 150px;
+        }
+        .invite {
+            position: absolute;
+            left: 150px;
+            bottom: 45px;
+            color: #000;
+            width: 20%;
+
+        &:before {
+             content: '';
+             background: #fff;
+             display: block;
+             width: 40px;
+             height: 3px;
+             margin-bottom: 5px;
+         }
+        }
+        }
+
+        .check {
+            background: #000000;
+            height: 250px;
+            width: 450px;
+            padding: 40px;
+            position: relative;
+
+        &:before {
+             content: '';
+             position: absolute;
+             top: 0; left: 0;
+             border-top: 20px solid #ffffff;
+             border-right: 20px solid #ffffff;
+             width: 0;
+         }
+        &:after {
+             content: '';
+             position: absolute;
+             bottom: 0; left: 0;
+             border-bottom: 20px solid #ffffff;
+             border-right: 20px solid #ffffff;
+             width: 0;
+         }
+
+        .big {
+            font-size: 80px;
+            font-weight: 900;
+            line-height: .8em;
+        }
+        .number {
+            position: absolute;
+            top: 50px;
+            right: 50px;
+            color: #ef5658;
+            font-size: 40px;
+        }
+        .info {
+            display: flex;
+            justify-content: flex-start;
+
+            font-size: 12px;
+            margin-top: 20px;
+            width: 100%;
+
+        section {
+            margin-right: 50px;
+        &:before {
+             content: '';
+             background: #ef5658;
+             display: block;
+             width: 40px;
+             height: 3px;
+             margin-bottom: 5px;
+         }
+        .title {
+            font-size: 10px;
+            text-transform: uppercase;
+        }
+        }
+        }
+        }
+
+    </style>
 
 </head>
 
@@ -109,104 +254,6 @@
                         <div class="collapse navbar-collapse clearfix" id="navbarSupportedContent">
 
                             <ul class="navigation clearfix">
-
-                                {{--<li class="current dropdown"><a href="index.html">Home</a>
-
-                                    <ul>
-
-                                        <li><a href="index.html">Home Classic</a></li>
-
-                                        <li><a href="index-2.html">Home Conference</a></li>
-
-                                        <li><a href="index-3.html">Home Meetup</a></li>
-
-                                        <li><a href="index-4.html">Home Page Four</a></li>
-
-                                        <li><a href="index-5.html">Home Page Five</a></li>
-
-                                        <li class="dropdown"><a href="#">Header Styles</a>
-
-                                            <ul>
-
-                                                <li><a href="index.html">Header Style One</a></li>
-
-                                                <li><a href="index-2.html">Header Style Two</a></li>
-
-                                                <li><a href="index-3.html">Header Style Three</a></li>
-
-                                                <li><a href="index-4.html">Home Page Four</a></li>
-
-                                                <li><a href="index-5.html">Home Page Five</a></li>
-
-                                            </ul>
-
-                                        </li>
-
-                                    </ul>
-
-                                </li>
-
-                                <li class="dropdown"><a href="about-us.html">About</a>
-
-                                    <ul>
-
-                                        <li><a href="about-us.html">About Us</a></li>
-
-                                        <li><a href="pricing.html">Pricing</a></li>
-
-                                        <li><a href="faqs.html">FAQ's</a></li>
-
-                                        <li><a href="gallery.html">Gallery</a></li>
-
-                                        <li><a href="coming-soon.html">Coming Soon</a></li>
-
-                                    </ul>
-
-                                </li>
-
-                                <li class="dropdown"><a href="speakers.html">Speakers</a>
-
-                                    <ul>
-
-                                        <li><a href="speakers.html">Speakers</a></li>
-
-                                        <li><a href="speakers-detail.html">Speakers Detail</a></li>
-
-                                    </ul>
-
-                                </li>
-
-                                <li class="dropdown"><a href="schedule.html">Schedule</a>
-
-                                    <ul>
-
-                                        <li><a href="schedule.html">Schedule</a></li>
-
-                                        <li><a href="event-detail.html">Event Detail</a></li>
-
-                                        <li><a href="buy-ticket.html">Buy Ticket</a></li>
-
-                                    </ul>
-
-                                </li>
-
-                                <li class="dropdown"><a href="blog-sidebar.html">Blog</a>
-
-                                    <ul>
-
-                                        <li><a href="blog-sidebar.html">Blog With Sidebar</a></li>
-
-                                        <li><a href="blog-grid.html">Blog Grid</a></li>
-
-                                        <li><a href="blog-single.html">Blog Single</a></li>
-
-                                        <li><a href="error-page.html">404 Error</a></li>
-
-                                    </ul>
-
-                                </li>
-
-                                <li><a href="contact.html">Contact</a></li>--}}
 
                             </ul>
 
@@ -375,7 +422,7 @@
     </section>
 
     <!-- End Coming Soon -->
-    <section class="buy-ticket">
+    <section class="">
 
         <div class="anim-icons full-width">
 
@@ -391,83 +438,47 @@
 
                 <!-- Content Column -->
 
-                <div class="content-column col-lg-8 col-md-12 col-sm-12 order-2">
+                <div class="content-column col-lg-12 col-md-12 col-sm-12 order-2 eticket">
 
-                    <div class="inner-column">
+                    {{--eticket html--}}
 
-                        <div class="ticket-form">
-
-                            <form method="post" action="#">
-
-
-                                <div class="form-group" style="margin-left: 30% ">
-
-                                    {!! \SimpleSoftwareIO\QrCode\Facades\QrCode::size(300)->backgroundColor(247,247,247)->generate('Some Address Here') !!}
-
-
-                                </div>
-
-                                <div class="form-group">
-
-                                    <input type="text" name="username" placeholder="Your Full Name" required="">
-
-                                </div>
-
-
-
-                                <div class="form-group">
-
-                                    <input type="email" name="email" placeholder="Your Email" required="">
-
-                                </div>
-
-
-
-                                <div class="form-group">
-
-                                    <input type="text" name="email" placeholder="Phone" required="">
-
-                                </div>
-
-
-
-                                <div class="form-group">
-
-                                    <input type="text" name="from" placeholder="From Address" required="">
-
-                                </div>
-                                <div class="form-group">
-
-                                    <input type="text" name="hash" placeholder="Transaction Hash" required="">
-
-                                </div>
-
-
-
-{{--                                <div class="form-group">--}}
-
-{{--                                    <input type="checkbox" name="terms" id="term" required="">--}}
-
-{{--                                    <label for="term">I accept the <span>Terms &amp; Conditions</span></label>--}}
-
-{{--                                </div>--}}
-
-
-
-                                <div class="form-group">
-
-                                    <button class="theme-btn btn-style-three" type="submit" name="Submit"><span class="btn-title">Confirm Your Purchase</span></button>
-
-                                </div>
-
-                            </form>
-
+                    <div class="ticket">
+                        <div class="stub">
+                            <div class="top">
+                                <span class="admit">Admit</span>
+                                <span class="line"></span>
+                                <span class="num">
+        Invitation
+        <span>31415926</span>
+      </span>
+                            </div>
+                            <div class="number">1</div>
+                            <div class="invite">
+                                Invite for you
+                            </div>
                         </div>
-
-
-                        <!-- Follow Us -->
-
+                        <div class="check">
+                            <div class="big">
+                                You're <br> Invited
+                            </div>
+                            <div class="number">#1</div>
+                            <div class="info">
+                                <section>
+                                    <div class="title">Date</div>
+                                    <div>4/27/2016</div>
+                                </section>
+                                <section>
+                                    <div class="title">Issued By</div>
+                                    <div>Ampersand</div>
+                                </section>
+                                <section>
+                                    <div class="title">Invite Number</div>
+                                    <div>31415926</div>
+                                </section>
+                            </div>
+                        </div>
                     </div>
+                    {{--eticket html--}}
 
 
                 </div>
@@ -476,43 +487,7 @@
 
                 <!-- Form Column -->
 
-                <div class="form-column col-lg-4 col-md-12 col-sm-12">
 
-                    <div class="inner-column">
-
-                        <h2>Buy Now <span>$NRK</span></h2>
-
-                        <div class="instructions">
-                        <p>
-                        Here the Steps to Follow.
-                        <ol>
-                            <li>
-                                Scan the QR Code.
-                            </li>
-                            <li>
-                                Send $NRK to the account and copy the transaction hash.
-                            </li>
-                            <li>
-                                Fill the form.
-                            </li>
-                            <li>
-                                Paste the address you used to transfer $NRK.
-                            </li>
-                            <li>
-                                Paste the transaction hash as a proof.
-                            </li>
-                            <li>
-                                Lastly, Hit the "Confirm Your Purchase" Button..
-                            </li>
-                            Wait for the confirmation and get your E-Ticket.
-                        </ol>
-                            </p>
-                        </div>
-
-
-                    </div>
-
-                </div>
 
             </div>
 

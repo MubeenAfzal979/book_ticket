@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -29,3 +30,7 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
+
+Route::post('/confirm-purchase', [HomeController::class, 'confirmPurchase'])->name('confirm.purchase');
+Route::get('/check', [HomeController::class, 'checkTicket']);
+

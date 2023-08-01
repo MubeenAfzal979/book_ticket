@@ -57,7 +57,7 @@ Last Change:    12/9/2019
 45. Clients Section / Two / Three
 46. Main Footer / Two / Three
 47. Error Section
-48. Sidebar Page Container 
+48. Sidebar Page Container
 49. Comment Area
 50. Comment Form
 51. Social icon Colored
@@ -65,14 +65,14 @@ Last Change:    12/9/2019
 53. Boxed Layout
 -------------------------------------------*/
 
-/*** 
+/***
 
 ====================================================================
 	 Fonts
 ====================================================================
 
 ***/
- 
+
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900|Orbitron:500,700|Ubuntu:400,500,700&amp;display=swap');
 
 /*
@@ -81,14 +81,14 @@ Last Change:    12/9/2019
 	font-family: 'Orbitron', sans-serif;
 */
 
-/*** 
+/***
 
 ====================================================================
 	 Resources / Css Files
 ====================================================================
 
  ***/
- 
+
 @import url('fontawesome-all.css');
 @import url('flaticon.css');
 @import url('elegent-icon.css');
@@ -97,14 +97,14 @@ Last Change:    12/9/2019
 @import url('owl.css');
 @import url('jquery.fancybox.min.css');
 
-/*** 
+/***
 
 ====================================================================
     Reset
 ====================================================================
 
  ***/
- 
+
 * {
 	margin:0px;
 	padding:0px;
@@ -112,7 +112,7 @@ Last Change:    12/9/2019
 	outline:none;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Global Settings
@@ -153,7 +153,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 input,button,select,textarea{
-	
+
 }
 
 textarea{
@@ -165,7 +165,7 @@ p,.text{
 	font-size: 16px;
 	line-height: 26px;
 	color: #888888;
-	font-weight: 400;	
+	font-weight: 400;
 }
 
 .auto-container{
@@ -197,7 +197,7 @@ p,.text{
 ul,li{
 	list-style:none;
 	padding:0px;
-	margin:0px;	
+	margin:0px;
 }
 
 img{
@@ -215,7 +215,7 @@ img{
 }
 
 .centered{
-	text-align:center;	
+	text-align:center;
 }
 
 .theme-btn .flaticon-arrow{
@@ -250,7 +250,7 @@ background:#ec167f;
 color:#ffffff;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Buttons Style
@@ -561,7 +561,7 @@ color:#ffffff;
 	content: "";
 }
 
-/*** 
+/***
 
 ====================================================================
 	Social Icons
@@ -684,17 +684,17 @@ color:#ffffff;
 	color:#d24c59;
 }
 
-.preloader{ 
-	position:fixed; 
-	left:0px; 
-	top:0px; 
-	width:100%; 
-	height:100%; 
-	z-index:999999; 
+.preloader{
+	position:fixed;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	z-index:999999;
 	background-color: #ffffff;
-	background-position:center center; 
-	background-repeat:no-repeat; 
-	background-image:url(../images/icons/preloader.svg); 
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-image:url(../images/icons/preloader.svg);
 	background-size:100px;
 }
 
@@ -715,13 +715,13 @@ color:#ffffff;
 	text-decoration: underline;
 	font-family: "Ubuntu", sans-serif;
 	font-weight: 400;
-} 
+}
 
 
 img{
 	display:inline-block;
 	max-width:100%;
-	height:auto;	
+	height:auto;
 }
 
 .pull-left{
@@ -732,7 +732,7 @@ img{
 	float: right;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Scroll To Top style
@@ -759,7 +759,7 @@ img{
 	-moz-transition:all 300ms ease;
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
-	transition:all 300ms ease;		
+	transition:all 300ms ease;
 }
 
 .scroll-to-top:hover{
@@ -779,7 +779,7 @@ img{
 	display: block;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Page Title
@@ -853,10 +853,10 @@ img{
 }
 
 .page-title .bread-crumb li a:hover{
-	color:#f0c52e;	
+	color:#f0c52e;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Section Title
@@ -909,7 +909,7 @@ img{
 .sec-title.light h2,
 .sec-title.light .title{
 	color: #ffffff;
-	-webkit-text-fill-color:inherit; 
+	-webkit-text-fill-color:inherit;
 }
 
 
@@ -936,7 +936,7 @@ img{
 	background-repeat: no-repeat;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Main Header
@@ -984,7 +984,7 @@ img{
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
-	transition:all 300ms ease;	
+	transition:all 300ms ease;
 }
 
 .main-header .nav-outer{
@@ -994,7 +994,7 @@ img{
 	-moz-transition:all 600ms ease;
 	-ms-transition:all 600ms ease;
 	-o-transition:all 600ms ease;
-	transition:all 600ms ease;	
+	transition:all 600ms ease;
 }
 
 .main-header .nav-outer .main-menu{
@@ -1078,7 +1078,7 @@ img{
 	font-size:16px;
 	font-weight: 900;
 	text-align:center;
-	z-index:5;	
+	z-index:5;
 }
 
 .main-menu .navigation > li > ul > li > ul > li.dropdown:hover > a:after{
@@ -1128,7 +1128,7 @@ img{
 
 .main-menu .navigation > li > ul.from-right{
 	left:auto;
-	right:0px;	
+	right:0px;
 }
 
 .main-menu .navigation > li > ul > li{
@@ -1194,7 +1194,7 @@ img{
 
 .main-menu .navigation > li > ul > li > ul.from-right{
 	left:auto;
-	right:0px;	
+	right:0px;
 }
 
 .main-menu .navigation > li > ul > li > ul > li{
@@ -1253,7 +1253,7 @@ img{
 	-webkit-transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
 	-ms-transition:all 500ms ease;
-	-o-transition:all 500ms ease;	
+	-o-transition:all 500ms ease;
 	transition:all 500ms ease;
 }
 
@@ -1321,7 +1321,7 @@ img{
 	left: auto !important;
 	right: 0;
 	padding:0px;
-	width:280px;	
+	width:280px;
 	border-radius:0px;
 	-webkit-transform: none !important;
 	-ms-transform: none !important;
@@ -1330,12 +1330,12 @@ img{
 }
 
 .main-header .search-panel .form-container{
-	padding:25px 20px;	
+	padding:25px 20px;
 }
 
 .main-header .search-panel .form-group{
 	position:relative;
-	margin:0px;	
+	margin:0px;
 }
 
 .main-header .search-panel input[type="text"],
@@ -1349,12 +1349,12 @@ img{
 	height:40px;
 	font-size:14px;
 	border:1px solid #e0e0e0;
-	background:#ffffff;	
+	background:#ffffff;
 }
 
 .main-header .search-panel input:focus,
 .main-header .search-panel select:focus{
-	border-color:#25262c;	
+	border-color:#25262c;
 }
 
 .main-header .search-panel .search-btn{
@@ -1395,7 +1395,7 @@ img{
 	display: none;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Header Style Two
@@ -1445,7 +1445,7 @@ img{
 	padding: 10px 0;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Header Style Three
@@ -1474,7 +1474,7 @@ img{
 	border-radius: 3px;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Fixed Header
@@ -1487,7 +1487,7 @@ img{
 	background-color: #101130;
 }
 
-/*** 
+/***
 
 ====================================================================
 			Mobile Menu
@@ -1511,7 +1511,7 @@ img{
 .mobile-menu .nav-logo{
 	position:relative;
 	padding:20px 20px;
-	text-align:left;	
+	text-align:left;
 }
 
 .mobile-menu .nav-logo img{
@@ -1648,7 +1648,7 @@ img{
 
 .mobile-menu .navigation li:hover > a,
 .mobile-menu .navigation li.current > a{
-	color:#e1137b;	
+	color:#e1137b;
 }
 
 .mobile-menu .navigation li.dropdown .dropdown-btn{
@@ -1680,7 +1680,7 @@ img{
 	display: none;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Banner Section
@@ -1896,7 +1896,7 @@ img{
 	color: #222222;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Banner Conference
@@ -2341,7 +2341,7 @@ img{
 	position: relative;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Banner MeetUp
@@ -2472,7 +2472,7 @@ img{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 		About Section
@@ -2658,7 +2658,7 @@ img{
 	opacity: .05;
 }
 
-/*** 
+/***
 
 ====================================================================
 		About Section Two
@@ -2800,7 +2800,7 @@ img{
 	opacity: .05;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Coming Soon
@@ -2874,7 +2874,7 @@ img{
 	font-weight: 700;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Features Section
@@ -3070,7 +3070,7 @@ img{
     top: 35%;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Features Section Two
@@ -3238,7 +3238,7 @@ img{
 	background-image: url(../images/icons/twist-line-3.png);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Features Section Three
@@ -3506,7 +3506,7 @@ img{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 		Speakers Section
@@ -3590,8 +3590,8 @@ img{
 	text-align:center;
 	background-color: rgba(28,139,210,.70);
 	background-color: rgba(237,23,127,.90);
-	
-	
+
+
 	-webkit-transition: -webkit-transform 0.4s ease;
 	transition: -webkit-transform 0.4s ease;
 	transition: transform 0.4s ease;
@@ -3767,7 +3767,7 @@ img{
 	color: #ffffff;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Speakers Section Two
@@ -3957,19 +3957,19 @@ img{
 }
 
 .icon-circle-4{
-	height: 156px;	
-	width: 156px;	
+	height: 156px;
+	width: 156px;
 	background-image: url(../images/icons/icon-circle-4.png);
 }
 
 .icon-circle-3{
-	height: 360px;	
-	width: 360px;	
+	height: 360px;
+	width: 360px;
 	background-image: url(../images/icons/icon-circle-3.png);
 	background-size: 100%;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Speakers Section Three
@@ -4176,10 +4176,10 @@ img{
 	color: #ffffff;
 }
 
-/*** 
+/***
 
 ====================================================================
-	Speker Detail								
+	Speker Detail
 ====================================================================
 
 ***/
@@ -4289,7 +4289,7 @@ img{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 	schedule Section
@@ -4478,7 +4478,7 @@ img{
 
 .schedule-block{
 	position: relative;
-	margin-bottom: 30px;	
+	margin-bottom: 30px;
 }
 
 .schedule-block:after{
@@ -4764,7 +4764,7 @@ img{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 	schedule Section Style two
@@ -4812,7 +4812,7 @@ img{
     margin: 0 auto;
 }
 
-/*** 
+/***
 
 ====================================================================
 	schedule Section Style Three
@@ -4870,7 +4870,7 @@ img{
 .schedule-section.style-three .schedule-timeline {
     position: relative;
 }
-/*** 
+/***
 
 ====================================================================
 		Event Detail
@@ -5007,7 +5007,7 @@ img{
 	margin-top: 20px;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Pricing Section
@@ -5290,7 +5290,7 @@ img{
 	animation: fa-spin 30s infinite;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Pricing Section Two
@@ -5474,7 +5474,7 @@ img{
 	background-size: 100%;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Pricing Section Three
@@ -5839,7 +5839,7 @@ img{
 }
 
 .accordion-box .block .acc-content.current{
-	display:block;	
+	display:block;
 }
 
 .accordion-box .block .content{
@@ -5850,17 +5850,17 @@ img{
 
 .accordion-box .block .content .text{
 	position:relative;
-	font-size:16px;	
+	font-size:16px;
 	line-height: 26px;
 	color:#888888;
 }
 
 .accordion-box .block .content p:last-child{
-	margin-bottom:0px;	
+	margin-bottom:0px;
 }
 
 
-/*** 
+/***
 
 ====================================================================
 		FAQ Form Section
@@ -5880,7 +5880,7 @@ img{
 
 .faq-form .form-group{
 	position:relative;
-	margin-bottom:20px;	
+	margin-bottom:20px;
 }
 
 .faq-form .form-group input[type="text"],
@@ -5996,7 +5996,7 @@ img{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 		App Section
@@ -6079,7 +6079,7 @@ img{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 		Gallery Section
@@ -6181,7 +6181,7 @@ img{
 
 
 
-/*** 
+/***
 
 ====================================================================
 		Event Info Section
@@ -6369,7 +6369,7 @@ img{
 
 
 
-/*** 
+/***
 
 ====================================================================
 		Testimonial Section
@@ -6494,7 +6494,7 @@ img{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 		News Section
@@ -6547,7 +6547,7 @@ img{
   opacity: 0;
   background: rgba(255, 255, 255, 0.13);
   background: linear-gradient(
-    to right, 
+    to right,
     rgba(255, 255, 255, 0.13) 0%,
     rgba(255, 255, 255, 0.13) 77%,
     rgba(255, 255, 255, 0.5) 92%,
@@ -6682,7 +6682,7 @@ img{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 		Blog Sidebar
@@ -6707,7 +6707,7 @@ img{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 		Blog Detail
@@ -6922,7 +6922,7 @@ img{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 		Styled Pagination
@@ -6971,7 +6971,7 @@ img{
     box-shadow: 0 5px 10px rgba(0,0,0,0.10);
 }
 
-/*** 
+/***
 
 ====================================================================
 			Coming Soon
@@ -7117,7 +7117,7 @@ img{
 	-moz-transition:all 300ms ease;
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
-	transition:all 300ms ease;	
+	transition:all 300ms ease;
 }
 
 .coming-soon .emailed-form .form-group input[type="submit"],
@@ -7171,7 +7171,7 @@ img{
 	opacity: .20;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Video Section
@@ -7275,11 +7275,11 @@ img{
 	-ms-box-shadow: 0 0px 10px 0 rgba(255, 255, 255, .3);
 	-o-box-shadow: 0 0px 10px 0 rgba(255, 255, 255, .3);
 	box-shadow: 0  0px 10px 0 rgba(255, 255, 255, .3);
-	-webkit-transform-origin:center; 
-	-moz-transform-origin:center; 
-	-ms-transform-origin:center; 
-	-o-transform-origin:center; 
-	transform-origin:center; 
+	-webkit-transform-origin:center;
+	-moz-transform-origin:center;
+	-ms-transform-origin:center;
+	-o-transform-origin:center;
+	transform-origin:center;
 }
 
 .play-now .ripple,
@@ -7342,7 +7342,7 @@ img{
 	100% {box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);}
 }
 
-/*** 
+/***
 
 ====================================================================
 		Call to Action
@@ -7399,7 +7399,7 @@ img{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 		Register Section
@@ -7567,7 +7567,7 @@ img{
 
 
 
-/*** 
+/***
 
 ====================================================================
 		Contact Page Section
@@ -7599,7 +7599,7 @@ img{
 
 .contact-form .form-group{
 	position:relative;
-	margin-bottom:30px;	
+	margin-bottom:30px;
 }
 
 .contact-form .form-group:last-child{
@@ -7647,7 +7647,7 @@ img{
 .contact-form input.error:focus,
 .contact-form select.error:focus,
 .contact-form textarea.error:focus{
-	border-color:#ff0000;	
+	border-color:#ff0000;
 }
 
 .contact-form label.error{
@@ -7721,7 +7721,7 @@ img{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 		Map Section
@@ -7764,7 +7764,7 @@ img{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 		Subscribe Section
@@ -7829,7 +7829,7 @@ img{
 
 .subscribe-section .content-box .sec-title h2{
 	position: relative;
-	display: block;		
+	display: block;
 	color: #ffffff;
 	font-size: 30px;
 	line-height: 35px;
@@ -7901,7 +7901,7 @@ img{
 	cursor: pointer;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Newsletter Section
@@ -8032,7 +8032,7 @@ img{
 
 }
 
-/*** 
+/***
 
 ====================================================================
 		Clients Section
@@ -8108,7 +8108,7 @@ img{
     -moz-transition:all 300ms ease;
     -ms-transition:all 300ms ease;
     -o-transition:all 300ms ease;
-    transition:all 300ms ease;    
+    transition:all 300ms ease;
 }
 
 .clients-section .sponsors-outer .image-box:hover img{
@@ -8152,7 +8152,7 @@ img{
 	animation: fa-spin 30s infinite alternate;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Clients Section Two
@@ -8219,14 +8219,14 @@ img{
     -moz-transition:all 300ms ease;
     -ms-transition:all 300ms ease;
     -o-transition:all 300ms ease;
-    transition:all 300ms ease;    
+    transition:all 300ms ease;
 }
 
 .clients-section-two .sponsors-outer .image-box:hover img{
 	opacity: 1;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Clients Section Three
@@ -8295,7 +8295,7 @@ img{
     -moz-transition:all 300ms ease;
     -ms-transition:all 300ms ease;
     -o-transition:all 300ms ease;
-    transition:all 300ms ease;    
+    transition:all 300ms ease;
 }
 
 .clients-section-three .sponsors-outer .image-box:hover img{
@@ -8358,7 +8358,7 @@ img{
 }
 
 .main-footer .logo{
-	position:relative;	
+	position:relative;
 	margin-bottom: 5px;
 	top: -20px;
 }
@@ -8369,7 +8369,7 @@ img{
 
 .main-footer .footer-logo img{
 	display:block;
-	max-width:100%;	
+	max-width:100%;
 }
 
 .main-footer .about-widget .text{
@@ -8478,7 +8478,7 @@ img{
 	color: #ffffff;
 	font-weight: 400;
 	padding: 0 15px;
-	border-left: 1px solid #f70068; 
+	border-left: 1px solid #f70068;
 	-webkit-transition: all 300ms ease;
 	-moz-transition: all 300ms ease;
 	-ms-transition: all 300ms ease;
@@ -8584,7 +8584,7 @@ img{
 
 .instagram-widget .image img{
 	display:block;
-	width:100%;	
+	width:100%;
 }
 
 .instagram-widget .image a{
@@ -8924,7 +8924,7 @@ img{
 	opacity: .05;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Error Section
@@ -9014,7 +9014,7 @@ img{
 	top: -200px;
 	opacity: .20;
 }
-/*** 
+/***
 
 ====================================================================
 	Sidebar Page Container
@@ -9067,7 +9067,7 @@ img{
 
 .sidebar .search-box .form-group{
 	position:relative;
-	margin:0px;	
+	margin:0px;
 }
 
 .sidebar .search-box .form-group input[type="text"],
@@ -9240,7 +9240,7 @@ img{
 	color:#e1137b;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Comment Area
@@ -9348,7 +9348,7 @@ img{
 	padding: 5px 20px;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Comment Form
@@ -9479,7 +9479,7 @@ img{
 	position:relative;
 	display: block;
 	width: 100%;
-	margin-bottom:20px;	
+	margin-bottom:20px;
 }
 
 .ticket-form .form-group:last-child{
@@ -9611,73 +9611,73 @@ img{
 			Social icon Colored
 =========================================================*/
 
-.social-icon-colored .fa-adn{color:#504e54;} 
-.social-icon-colored .fa-apple{color:#aeb5c5;} 
-.social-icon-colored .fa-android{color:#A5C63B;}  
-.social-icon-colored .fa-bitbucket,.social-icon-colored .fa-bitbucket-square{color:#003366;} 
-.social-icon-colored .fa-bitcoin,.social-icon-colored .fa-btc{color:#F7931A;} 
-.social-icon-colored .fa-css3{color:#1572B7;} 
-.social-icon-colored .fa-dribbble{color:#F46899;}  
+.social-icon-colored .fa-adn{color:#504e54;}
+.social-icon-colored .fa-apple{color:#aeb5c5;}
+.social-icon-colored .fa-android{color:#A5C63B;}
+.social-icon-colored .fa-bitbucket,.social-icon-colored .fa-bitbucket-square{color:#003366;}
+.social-icon-colored .fa-bitcoin,.social-icon-colored .fa-btc{color:#F7931A;}
+.social-icon-colored .fa-css3{color:#1572B7;}
+.social-icon-colored .fa-dribbble{color:#F46899;}
 .social-icon-colored .fa-dropbox{color:#018BD3;}
-.social-icon-colored .fa-facebook,.social-icon-colored .fa-facebook-f, .social-icon-colored .fa-facebook-square{color:#3C599F;}  
+.social-icon-colored .fa-facebook,.social-icon-colored .fa-facebook-f, .social-icon-colored .fa-facebook-square{color:#3C599F;}
 .social-icon-colored .fa-flickr{color:#FF0084;}
 .social-icon-colored .fa-foursquare{color:#0086BE;}
-.social-icon-colored .fa-github,.social-icon-colored .fa-github-alt,.social-icon-colored .fa-github-square{color:#070709;} 
-.social-icon-colored .fa-google-plus,.social-icon-colored .fa-google-plus-g,.social-icon-colored .fa-google-plus-square{color:#CF3D2E;} 
+.social-icon-colored .fa-github,.social-icon-colored .fa-github-alt,.social-icon-colored .fa-github-square{color:#070709;}
+.social-icon-colored .fa-google-plus,.social-icon-colored .fa-google-plus-g,.social-icon-colored .fa-google-plus-square{color:#CF3D2E;}
 .social-icon-colored .fa-html5{color:#E54D26;}
 .social-icon-colored .fa-instagram{color:#A1755C;}
-.social-icon-colored .fa-linkedin,.social-icon-colored .fa-linkedin-in,.social-icon-colored .fa-linkedin-square{color:#0085AE;} 
+.social-icon-colored .fa-linkedin,.social-icon-colored .fa-linkedin-in,.social-icon-colored .fa-linkedin-square{color:#0085AE;}
 .social-icon-colored .fa-linux{color:#FBC002;color:#333;}
 .social-icon-colored .fa-maxcdn{color:#F6AE1C;}
 .social-icon-colored .fa-pagelines{color:#241E20;color:#3984EA;}
-.social-icon-colored .fa-pinterest,.social-icon-colored .fa-pinterest-square{color:#CC2127;} 
+.social-icon-colored .fa-pinterest,.social-icon-colored .fa-pinterest-square{color:#CC2127;}
 .social-icon-colored .fa-renren{color:#025DAC;}
 .social-icon-colored .fa-skype{color:#01AEF2;}
 .social-icon-colored .fa-stack-exchange{color:#245590;}
 .social-icon-colored .fa-stack-overflow{color:#FF7300;}
 .social-icon-colored .fa-trello{color:#265A7F;}
-.social-icon-colored .fa-tumblr,.social-icon-colored .fa-tumblr-square{color:#314E6C;} 
-.social-icon-colored .fa-twitter,.social-icon-colored .fa-twitter-square{color:#32CCFE;} 
+.social-icon-colored .fa-tumblr,.social-icon-colored .fa-tumblr-square{color:#314E6C;}
+.social-icon-colored .fa-twitter,.social-icon-colored .fa-twitter-square{color:#32CCFE;}
 .social-icon-colored .fa-vimeo-square{color:#229ACC;}
 .social-icon-colored .fa-vk{color:#375474;}
 .social-icon-colored .fa-weibo{color:#D72B2B;}
 .social-icon-colored .fa-windows{color:#12B6F3;}
-.social-icon-colored .fa-xing,.social-icon-colored .fa-xing-square{color:#00555C;} 
+.social-icon-colored .fa-xing,.social-icon-colored .fa-xing-square{color:#00555C;}
 .social-icon-colored .fa-youtube,.social-icon-colored .fa-youtube-play,.social-icon-colored .fa-youtube-square{color:#C52F30;}
 
 /*Social icon Colored*/
-.social-icon-colored li a:hover .fa-adn{background-color:#504e54;} 
-.social-icon-colored li a:hover .fa-apple{background-color:#aeb5c5;} 
-.social-icon-colored li a:hover .fa-android{background-color:#A5C63B;}  
-.social-icon-colored li a:hover .fa-bitbucket,.social-icon-colored li a:hover .fa-bitbucket-square{background-color:#003366;} 
-.social-icon-colored li a:hover .fa-bitcoin,.social-icon-colored li a:hover .fa-btc{background-color:#F7931A;} 
-.social-icon-colored li a:hover .fa-css3{background-color:#1572B7;} 
-.social-icon-colored li a:hover .fa-dribbble{background-color:#F46899;}  
+.social-icon-colored li a:hover .fa-adn{background-color:#504e54;}
+.social-icon-colored li a:hover .fa-apple{background-color:#aeb5c5;}
+.social-icon-colored li a:hover .fa-android{background-color:#A5C63B;}
+.social-icon-colored li a:hover .fa-bitbucket,.social-icon-colored li a:hover .fa-bitbucket-square{background-color:#003366;}
+.social-icon-colored li a:hover .fa-bitcoin,.social-icon-colored li a:hover .fa-btc{background-color:#F7931A;}
+.social-icon-colored li a:hover .fa-css3{background-color:#1572B7;}
+.social-icon-colored li a:hover .fa-dribbble{background-color:#F46899;}
 .social-icon-colored li a:hover .fa-dropbox{background-color:#018BD3;}
-.social-icon-colored li a:hover .fa-facebook,.social-icon-colored li a:hover .fa-facebook-f, .social-icon-colored li a:hover .fa-facebook-square{background-color:#3C599F;}  
+.social-icon-colored li a:hover .fa-facebook,.social-icon-colored li a:hover .fa-facebook-f, .social-icon-colored li a:hover .fa-facebook-square{background-color:#3C599F;}
 .social-icon-colored li a:hover .fa-flickr{background-color:#FF0084;}
 .social-icon-colored li a:hover .fa-foursquare{background-color:#0086BE;}
-.social-icon-colored li a:hover .fa-github,.social-icon-colored li a:hover .fa-github-alt,.social-icon-colored li a:hover .fa-github-square{background-color:#070709;} 
-.social-icon-colored li a:hover .fa-google-plus,.social-icon-colored li a:hover .fa-google-plus-g,.social-icon-colored li a:hover .fa-google-plus-square{background-color:#CF3D2E;} 
+.social-icon-colored li a:hover .fa-github,.social-icon-colored li a:hover .fa-github-alt,.social-icon-colored li a:hover .fa-github-square{background-color:#070709;}
+.social-icon-colored li a:hover .fa-google-plus,.social-icon-colored li a:hover .fa-google-plus-g,.social-icon-colored li a:hover .fa-google-plus-square{background-color:#CF3D2E;}
 .social-icon-colored li a:hover .fa-html5{background-color:#E54D26;}
 .social-icon-colored li a:hover .fa-instagram{background-color:#A1755C;}
-.social-icon-colored li a:hover .fa-linkedin,.social-icon-colored li a:hover .fa-linkedin-in,.social-icon-colored li a:hover .fa-linkedin-square{background-color:#0085AE;} 
+.social-icon-colored li a:hover .fa-linkedin,.social-icon-colored li a:hover .fa-linkedin-in,.social-icon-colored li a:hover .fa-linkedin-square{background-color:#0085AE;}
 .social-icon-colored li a:hover .fa-linux{background-color:#FBC002;color:#333;}
 .social-icon-colored li a:hover .fa-maxcdn{background-color:#F6AE1C;}
 .social-icon-colored li a:hover .fa-pagelines{background-color:#241E20;color:#3984EA;}
-.social-icon-colored li a:hover .fa-pinterest,.social-icon-colored li a:hover .fa-pinterest-square{background-color:#CC2127;} 
+.social-icon-colored li a:hover .fa-pinterest,.social-icon-colored li a:hover .fa-pinterest-square{background-color:#CC2127;}
 .social-icon-colored li a:hover .fa-renren{background-color:#025DAC;}
 .social-icon-colored li a:hover .fa-skype{background-color:#01AEF2;}
 .social-icon-colored li a:hover .fa-stack-exchange{background-color:#245590;}
 .social-icon-colored li a:hover .fa-stack-overflow{background-color:#FF7300;}
 .social-icon-colored li a:hover .fa-trello{background-color:#265A7F;}
-.social-icon-colored li a:hover .fa-tumblr,.social-icon-colored li a:hover .fa-tumblr-square{background-color:#314E6C;} 
-.social-icon-colored li a:hover .fa-twitter,.social-icon-colored li a:hover .fa-twitter-square{background-color:#32CCFE;} 
+.social-icon-colored li a:hover .fa-tumblr,.social-icon-colored li a:hover .fa-tumblr-square{background-color:#314E6C;}
+.social-icon-colored li a:hover .fa-twitter,.social-icon-colored li a:hover .fa-twitter-square{background-color:#32CCFE;}
 .social-icon-colored li a:hover .fa-vimeo-square{background-color:#229ACC;}
 .social-icon-colored li a:hover .fa-vk{background-color:#375474;}
 .social-icon-colored li a:hover .fa-weibo{background-color:#D72B2B;}
 .social-icon-colored li a:hover .fa-windows{background-color:#12B6F3;}
-.social-icon-colored li a:hover .fa-xing,.social-icon-colored li a:hover .fa-xing-square{background-color:#00555C;} 
+.social-icon-colored li a:hover .fa-xing,.social-icon-colored li a:hover .fa-xing-square{background-color:#00555C;}
 .social-icon-colored li a:hover .fa-youtube,.social-icon-colored li a:hover .fa-youtube-play,.social-icon-colored li a:hover .fa-youtube-square{background-color:#C52F30;}
 .social-icon-colored li a:hover .fab{
 	color: #ffffff;
@@ -9748,7 +9748,7 @@ img{
 }
 
 .rtl .sidebar .search-box .form-group button,
-.rtl .subscribe-form .form-group input[type="submit"], 
+.rtl .subscribe-form .form-group input[type="submit"],
 .rtl .subscribe-form .form-group button,
 .rtl .banner-conference .images-outer,
 .rtl .banner-conference .layer-outer{
@@ -9820,9 +9820,9 @@ img{
 }
 
 .rtl .register-form .form-group input[type="text"],
-.rtl .register-form .form-group input[type="email"], 
+.rtl .register-form .form-group input[type="email"],
 .rtl .register-form .form-group input[type="url"],
-.rtl .register-form .form-group input[type="number"], 
+.rtl .register-form .form-group input[type="number"],
 .rtl .register-form .form-group input[type="date"],
 .rtl .register-form .form-group input[type="email"],
 .rtl .register-form .form-group textarea, .register-form .form-group select{
@@ -10121,7 +10121,7 @@ img{
 	margin-left:30px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Box Layout
@@ -10343,7 +10343,7 @@ img{
 	margin-top:8px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Coming Soon Section Two
@@ -10386,7 +10386,7 @@ img{
 
 .coming-soon-section-two .time-counter{
 	position:relative;
-	
+
 }
 
 .coming-soon-section-two .time-countdown{
@@ -10502,7 +10502,7 @@ img{
 	font-size:16px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Banner Conference Two
@@ -10815,7 +10815,7 @@ img{
 
 
 
-/*** 
+/***
 
 ====================================================================
 	Search Popup
@@ -10867,14 +10867,14 @@ img{
 }
 
 .search-popup .close-search:hover{
-	opacity:0.70;	
+	opacity:0.70;
 }
 
 .search-popup .search-form{
 	position:relative;
 	padding:0px 15px 0px;
 	max-width:1024px;
-	margin:0 auto;	
+	margin:0 auto;
 	margin-top:200px;
 }
 
@@ -10934,7 +10934,7 @@ img{
 	font-size:24px;
 	color:#ffffff;
 	margin-bottom:20px;
-	text-align:center;	
+	text-align:center;
 }
 
 .search-popup .recent-searches{
@@ -10945,7 +10945,7 @@ img{
 
 .search-popup .recent-searches li{
 	display:inline-block;
-	margin:0px 10px 10px 0px;	
+	margin:0px 10px 10px 0px;
 }
 
 .search-popup .recent-searches li a{
@@ -10959,11 +10959,11 @@ img{
 
 .search-popup .recent-searches li a:hover{
 	color:#ec167f;
-	border-color:#ec167f;	
+	border-color:#ec167f;
 }
 
 
-/*** 
+/***
 
 ====================================================================
 	Register Section
@@ -10999,7 +10999,7 @@ img{
 /* Styled Form */
 
 .styled-form{
-	position:relative;	
+	position:relative;
 }
 
 .styled-form .submit-text{
@@ -11022,7 +11022,7 @@ img{
 
 .checkout-section .styled-form .form-group{
 	position:relative;
-	margin-bottom:20px;	
+	margin-bottom:20px;
 }
 
 .styled-form .form-group .check-box{
@@ -11092,19 +11092,44 @@ img{
 	-moz-transition:all 300ms ease;
 }
 
-.event-info-section .map-outer iframe{ 
+.event-info-section .map-outer iframe{
 	position: relative;
     left: 0;
     top: 0;
     width: 100%;
     height: 435px;
-    margin-bottom: -10px;	
+    margin-bottom: -10px;
 }
-.map-section .map-outer iframe{ 
+.map-section .map-outer iframe{
 	position: relative;
     left: 0;
     top: 0;
     width: 100%;
     height: 540px;
-    margin-bottom: -10px;	
+    margin-bottom: -10px;
 }
+
+
+/*  Mubeen*/
+
+.instructions ol {
+    list-style: none;
+    counter-reset: item;
+}
+.instructions li {
+    counter-increment: item;
+    margin-bottom: 5px;
+}
+.instructions li:before {
+    margin-right: 2px;
+    /*content: "." counter(item) " "*/
+    content: counter(item) ".";
+    /*background: lightblue;*/
+    border-radius: 100%;
+    color: purple;
+    width: 1.2em;
+    text-align: center;
+    display: inline-block;
+}
+
+/*  Mubeen*/
