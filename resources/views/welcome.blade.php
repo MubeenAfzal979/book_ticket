@@ -37,7 +37,8 @@
 
                     <div class="ticket-form">
 
-                        <form method="post" action="#">
+                        <form method="post" action="{!! url('/confirm-purchase'); !!}">
+                            {{ csrf_field() }}
                             <div class="form-group" style="margin-left: 30%;">
                                 {!! \SimpleSoftwareIO\QrCode\Facades\QrCode::size(250)->backgroundColor(255,255,255)->generate('0x09F2C321ccC79644d72dC7F7d679d459F453da4d') !!}
                             </div>

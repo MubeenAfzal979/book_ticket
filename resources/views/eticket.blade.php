@@ -3,6 +3,11 @@
 @section('comingsoon')
 <!-- Coming Soon -->
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link href="{{url('/vendor/sweetalert2/dist/sweetalert2.min.css')}}" rel="stylesheet" type="text/css" />
+<script src="{{url('/vendor/sweetalert2/dist/sweetalert2.min.js')}}" type="text/javascript"></script>
+	<script src="{{url('/js/plugins-init/sweetalert.init.js')}}" type="text/javascript"></script>
+	
 <section class="coming-soon-section">
 
     <div class="auto-container">
