@@ -32,4 +32,5 @@ require __DIR__.'/auth.php';
 
 Route::post('/confirm-purchase', [HomeController::class, 'confirmPurchase'])->name('confirm.purchase');
 Route::get('/check', [HomeController::class, 'checkTicket']);
+Route::get('/email_ticket', [HomeController::class, 'emailTicket']);
 

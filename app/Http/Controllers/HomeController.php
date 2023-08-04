@@ -16,13 +16,24 @@ class HomeController extends Controller
 {
     public function confirmPurchase(Request $request) //: RedirectResponse
     {
-        $email = new SendTicketEmail();
-        Mail::to('venkat.konda96@gmail.com')->send($email);
-
         // $input = $request->all();
-        // $from_address = $request->from_address;
-        // $to_address = "Our Address";
+        // print_r($input);
+        // die;
 
+        $from_address = $request->from_address;
+        $from_address = $request->from_address;
+        $to_address = "Our Address";
+        $param = [];
+
+        $event_name = 'event1';
+        $param['subject'] = 'Your welcome ticket for ' .$event_name;
+
+        return redirect()->intended('check')
+        ->withSuccess('success!');
+        
+        // $email = new SendTicketEmail($param);
+        // Mail::to('venkat.konda96@gmail.com')->send($email);
+        
         // $base_url = "https://nordekscan.com/api";
 
         // $parameters = array(
@@ -45,5 +56,9 @@ class HomeController extends Controller
     public function checkTicket(Request $request)
     {
         return view('eticket');
+    }
+    public function emailTicket(Request $request)
+    {
+        return view('email_ticket');
     }
 }

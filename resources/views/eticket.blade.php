@@ -1,5 +1,4 @@
 @extends('main')
-
 @section('comingsoon')
 <!-- Coming Soon -->
 
