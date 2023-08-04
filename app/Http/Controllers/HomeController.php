@@ -96,4 +96,5 @@ class HomeController extends Controller
     {
         return view('email_ticket');
     }
+    
 }
