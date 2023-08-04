@@ -39,12 +39,14 @@
 
                         <form method="post" action="{!! url('/confirm-purchase'); !!}">
                             {{ csrf_field() }}
-                            <div class="form-group" style="margin-left: 30%;">
+                            <center>
+                            <div class="form-group">
                                 {!! \SimpleSoftwareIO\QrCode\Facades\QrCode::size(250)->backgroundColor(255,255,255)->generate('0x09F2C321ccC79644d72dC7F7d679d459F453da4d') !!}
                             </div>
-                            <div class="form-group"  style="margin-left: 22%;">
+                            <div class="form-group">
                                 <span id="address">0x09F2C321ccC79644d72dC7F7d679d459F453da4d </span><i class="fa fa-copy" onclick="myFunction()"></i>
                             </div>
+                            </center>
                             <div class="form-group">
 
                                 <input type="text" name="username" placeholder="Your Full Name" required="">
