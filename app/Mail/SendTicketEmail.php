@@ -30,8 +30,8 @@ class SendTicketEmail extends Mailable
     */
     public function build()
     {
-        return $this->view('eticket')
-                    ->subject('asdasd')
-                    ->with('ticket',$data);
+        return $this->view('email_ticket')
+                    ->subject($this->data['subject'])
+                    ->with('ticket',$this->data);
     }
 }
