@@ -196,7 +196,7 @@
                             <span class="admit">Admit</span>
                             <span class="line"></span>
                             <span class="num">
-    Invitation
+
     <span>{{$ticket->full_name }}</span>
   </span>
                         </div>
