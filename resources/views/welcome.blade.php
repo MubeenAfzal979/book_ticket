@@ -54,7 +54,7 @@
                                 <input type="email" name="email" placeholder="Your Email" required="">
                             </div>
                             <div class="form-group">
-                                <input type="text" name="email" placeholder="Phone" required="">
+                                <input type="text" name="phone" placeholder="Phone" required="">
                             </div>
                             <div class="form-group">
                                 <input type="text" name="from" placeholder="From Address" required="">

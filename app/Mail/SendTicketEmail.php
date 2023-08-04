@@ -21,7 +21,7 @@ class SendTicketEmail extends Mailable
     public function __construct($data)
     {
         // echo 'mail func constructor<br>';
-        $this->data=$data;
+         $this->data=$data;
     }
     /**
      * Build the message.
@@ -30,8 +30,8 @@ class SendTicketEmail extends Mailable
     */
     public function build()
     {
-        return $this->view('email_ticket')
-                    ->subject($this->data['subject'])
-                    ->with($this->data);
+        return $this->view('eticket')
+                    ->subject('asdasd')
+                    ->with('ticket',$data);
     }
 }
