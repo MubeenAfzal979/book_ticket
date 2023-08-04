@@ -13,7 +13,7 @@
 
                 <div class="copyright-text">
 
-                    <p>© Copyright 2023 All Rights Reserved by <a href="">N1 Mega Event</a></p>
+                    <p>© Copyright 2023 All Rights Reserved by <a href="{{route('welcome')}}">N1 Mega Event</a></p>
 
                 </div>
 

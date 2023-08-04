@@ -209,7 +209,7 @@
                         <div class="big">
                             You're <br> Invited
                         </div>
-                        <div class="number">{{!!'00'.$ticket->id }}</div>
+                        <div class="number">{{'00'.$ticket->id }}</div>
                         <div class="info">
                             <section>
                                 <div class="title">Date</div>
@@ -221,7 +221,7 @@
                             </section>
                             <section>
                                 <div class="title">Invite Number</div>
-                                <div>{{!!'000'.$ticket->id }}</div>
+                                <div>{{'00'.$ticket->id }}</div>
                             </section>
                         </div>
                     </div>

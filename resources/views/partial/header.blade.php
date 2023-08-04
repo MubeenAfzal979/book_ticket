@@ -7,7 +7,7 @@
 
                 <div class="logo-box">
 
-                    <div class="logo"><a href="index.html"><img src="images/logo.png" alt="" title=""></a></div>
+                    <div class="logo"><a href="{{route('welcome')}}"><img src="images/logo.png" alt="" title=""></a></div>
 
                 </div>
 
@@ -169,7 +169,7 @@
 
                         <div class="btn-box">
 
-                            <a href="#" class="theme-btn btn-style-one"><span class="btn-title">Get Tickets</span></a>
+                            <a href="{{route('welcome')}}" class="theme-btn btn-style-one"><span class="btn-title">Get Tickets</span></a>
 
                         </div>
 
@@ -197,7 +197,7 @@
 
             <nav class="menu-box">
 
-                <div class="nav-logo"><a href="index.html"><img src="images/logo-2.png" alt="" title=""></a></div>
+                <div class="nav-logo"><a href="{{route('welcome')}}"><img src="images/logo-2.png" alt="" title=""></a></div>
 
 
 

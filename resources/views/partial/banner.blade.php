@@ -26,7 +26,7 @@
 
                     </ul>
 
-                    <div class="btn-box"><a href="#" class="theme-btn btn-style-two"><span class="btn-title">Book Now</span></a></div>
+                    <div class="btn-box"><a href="{{route('welcome')}}" class="theme-btn btn-style-two"><span class="btn-title">Book Now</span></a></div>
 
                 </div>
 
@@ -58,7 +58,7 @@
 
                     </ul>
 
-                    <div class="btn-box"><a href="#" class="theme-btn btn-style-two"><span class="btn-title">Book Now</span></a></div>
+                    <div class="btn-box"><a href="{{route('welcome')}}" class="theme-btn btn-style-two"><span class="btn-title">Book Now</span></a></div>
 
                 </div>
 
