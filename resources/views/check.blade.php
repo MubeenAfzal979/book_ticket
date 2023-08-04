@@ -2,9 +2,7 @@
 
 @section('comingsoon')
 <!-- Coming Soon -->
-<?php
-die('here');
-?>
+
 <section class="coming-soon-section">
 
     <div class="auto-container">
