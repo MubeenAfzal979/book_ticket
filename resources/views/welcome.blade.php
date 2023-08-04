@@ -104,7 +104,7 @@
                             Scan the QR Code.
                         </li>
                         <li>
-                            Send $NRK to the account and copy the transaction hash.
+                            Send <b>100 $NRK</b> to the account and copy the transaction hash.
                         </li>
                         <li>
                             Fill the form.
