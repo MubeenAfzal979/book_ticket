@@ -1,246 +1,77 @@
-@extends('main')
-@section('comingsoon')
-<!-- Coming Soon -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mega Event Entry Pass</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-image: url({{asset('theme/images/main-slider/1.jpg')}});
+            /*background: linear-gradient(180deg, #6F39E8, #C836DC);*/
+            color: #FFFFFF;
+        }
+        .ticket {
+            width: 300px;
+            background: #2E1E40;
+            margin: 20px auto;
+            border: 2px solid #6F39E8;
+            border-radius: 20px;
+            padding: 20px;
+            color: #FFFFFF;
+            text-shadow: 2px 2px 4px #000000;
+        }
+        .header-image {
+            width: 100%;
+            border-radius: 15px 15px 0 0;
+        }
+        h1 {
+            font-size: 32px;
+            color: #6F39E8;
+            margin: 0;
+            text-transform: uppercase;
+        }
 
+        h4 {
+            color: #C836DC;
+        }
+        .event-info {
+            margin-top: 20px;
+        }
+        .event-info p {
+            font-size: 18px;
+            color: #C836DC;
+            margin: 10px 0;
+        }
+        .ticket-info {
+            margin-top: 20px;
+            border-top: 2px solid #6F39E8;
+            padding-top: 10px;
+        }
+        .ticket-info p {
+            font-size: 20px;
+            font-weight: bold;
+            color: #6F39E8;
+        }
+    </style>
+</head>
+<body>
+<div class="ticket">
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<link href="{{url('/vendor/sweetalert2/dist/sweetalert2.min.css')}}" rel="stylesheet" type="text/css" />
-<script src="{{url('/vendor/sweetalert2/dist/sweetalert2.min.js')}}" type="text/javascript"></script>
-	<script src="{{url('/js/plugins-init/sweetalert.init.js')}}" type="text/javascript"></script>
-<style>
-
-
-    .ticket {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 700px;
-        margin: 20px auto;
-
-    .stub, .check {
-        box-sizing: border-box;
-    }
-    }
-
-    .stub {
-        background: #ef5658;
-        height: 250px;
-        width: 250px;
-        color: white;
-        padding: 20px;
-        position: relative;
-
-    &:before {
-         content: '';
-         position: absolute;
-         top: 0; right: 0;
-         border-top: 20px solid #dd3f3e;
-         border-left: 20px solid #ef5658;
-         width: 0;
-     }
-    &:after {
-         content: '';
-         position: absolute;
-         bottom: 0; right: 0;
-         border-bottom: 20px solid #dd3f3e;
-         border-left: 20px solid #ef5658;
-         width: 0;
-     }
-
-    .top {
-        display: flex;
-        align-items: center;
-        height: 40px;
-        text-transform: uppercase;
-
-    .line {
-        display: block;
-        background: #fff;
-        height: 40px;
-        width: 3px;
-        margin: 0 20px;
-    }
-    .num {
-        font-size: 10px;
-    span {
-        color: #000;
-    }
-    }
-    }
-    .number {
-        position: absolute;
-        left: 40px;
-        font-size: 150px;
-    }
-    .invite {
-        position: absolute;
-        left: 150px;
-        bottom: 45px;
-        color: #000;
-        width: 20%;
-
-    &:before {
-         content: '';
-         background: #fff;
-         display: block;
-         width: 40px;
-         height: 3px;
-         margin-bottom: 5px;
-     }
-    }
-    }
-
-    .check {
-        background: #fff;
-        height: 250px;
-        width: 450px;
-        padding: 40px;
-        position: relative;
-
-    &:before {
-         content: '';
-         position: absolute;
-         top: 0; left: 0;
-         border-top: 20px solid #dd3f3e;
-         border-right: 20px solid #fff;
-         width: 0;
-     }
-    &:after {
-         content: '';
-         position: absolute;
-         bottom: 0; left: 0;
-         border-bottom: 20px solid #dd3f3e;
-         border-right: 20px solid #fff;
-         width: 0;
-     }
-
-    .big {
-        font-size: 80px;
-        font-weight: 900;
-        line-height: .8em;
-    }
-    .number {
-        position: absolute;
-        top: 50px;
-        right: 50px;
-        color: #ef5658;
-        font-size: 40px;
-    }
-    .info {
-        display: flex;
-        justify-content: flex-start;
-
-        font-size: 12px;
-        margin-top: 20px;
-        width: 100%;
-
-    section {
-        margin-right: 50px;
-    &:before {
-         content: '';
-         background: #ef5658;
-         display: block;
-         width: 40px;
-         height: 3px;
-         margin-bottom: 5px;
-     }
-    .title {
-        font-size: 10px;
-        text-transform: uppercase;
-    }
-    }
-    }
-    }
-
-</style>
-<section class="coming-soon-section">
-
-    <div class="auto-container">
-
-        <div class="outer-box">
-
-            <h1 style="color: white; font-size: large">Pay With $NRK</h1>
-
-        </div>
-
+    <h4>You are invited</h4>
+    <h1>N1 Mega Event</h1>
+    <div class="event-info">
+        <p><strong>Event:</strong> Lakhnow Uttar Pardesh</p>
+        <p><strong>Date:</strong> October 20, 2023</p>
     </div>
-
-</section>
-@endsection
-<!-- End Coming Soon -->
-
-@section('content')
-<section class="">
-
-    <div class="anim-icons full-width">
-
-        <span class="icon icon-circle-blue wow fadeIn"></span>
-
-        <span class="icon icon-circle-1 wow zoomIn"></span>
-
+    <div class="ticket-info">
+        <p><strong>Ticket ID:</strong> {{$ticket->id }}</p>
+        <p><strong>Name:</strong> {{$ticket->full_name }}</p>
+        <p><strong>Ticket Date:</strong> {{date('M d, Y',strtotime($ticket->created_at))}}</p>
+        <p><strong>Price:</strong> 500 NRK</p>
     </div>
+</div>
+</body>
+</html>
 
-    <div class="auto-container">
-
-        <div class="row">
-
-            <!-- Content Column -->
-
-            <div class="content-column col-lg-12 col-md-12 col-sm-12 order-2 eticket">
-
-                {{--eticket html--}}
-
-                <div class="ticket">
-                    <div class="stub">
-                        <div class="top">
-                            <span class="admit">Admit</span>
-                            <span class="line"></span>
-                            <span class="num">
-
-    <span>{{$ticket->full_name }}</span>
-  </span>
-                        </div>
-
-                        <div class="invite">
-                            Invite for you
-                        </div>
-                    </div>
-                    <div class="check">
-                        <div class="big">
-                            You're <br> Invited
-                        </div>
-                        <div class="number">{{'00'.$ticket->id }}</div>
-                        <div class="info">
-                            <section>
-                                <div class="title">Date</div>
-                                <div>{{date('d/m/Y',strtotime($ticket->created_at))}}</div>
-                            </section>
-                            <section>
-                                <div class="title">Issued By</div>
-                                <div>N1</div>
-                            </section>
-                            <section>
-                                <div class="title">Invite Number</div>
-                                <div>{{'00'.$ticket->id }}</div>
-                            </section>
-                        </div>
-                    </div>
-                </div>
-                {{--eticket html--}}
-
-
-            </div>
-
-
-
-            <!-- Form Column -->
-
-
-
-        </div>
-
-    </div>
-
-</section>
-<!-- Main Footer -->
-@endsection

@@ -12,9 +12,9 @@
 
                 <div class="content-box">
 
-                    <span class="title">Events</span>
+                    <span class="title">N1 Mega Event</span>
 
-                    <h2> N1 <br>Mega Event</h2>
+                    <h2> Lakhnow Uttar Pardesh <br>BHARAT</h2>
 
                     <ul class="info-list">
 
@@ -26,7 +26,7 @@
 
                     </ul>
 
-                    <div class="btn-box"><a href="{{route('welcome')}}" class="theme-btn btn-style-two"><span class="btn-title">Book Now</span></a></div>
+                    <div class="btn-box"><a href="#book" class="theme-btn btn-style-two"><span class="btn-title">Book Now</span></a></div>
 
                 </div>
 
@@ -44,21 +44,15 @@
 
                 <div class="content-box">
 
-{{--                        <span class="title">January 20, 2023</span>--}}
 
-                    <h2> N1 <br>Mega Event</h2>
+                    <span class="title">N1 Mega Event</span>
 
+                    <h2> Lakhnow Uttar Pardesh <br>BHARAT</h2>
                     <ul class="info-list">
-
-                        {{--<li><span class="icon fa fa-chair"></span> 5000 Seats</li>
-
-                        <li><span class="icon fa fa-user-alt"></span> 12 SPEAKERS</li>
-
-                        <li><span class="icon fa fa-map-marker-alt"></span> Palo, California</li>--}}
 
                     </ul>
 
-                    <div class="btn-box"><a href="{{route('welcome')}}" class="theme-btn btn-style-two"><span class="btn-title">Book Now</span></a></div>
+                    <div class="btn-box"><a href="#book" class="theme-btn btn-style-two"><span class="btn-title">Book Now</span></a></div>
 
                 </div>
 

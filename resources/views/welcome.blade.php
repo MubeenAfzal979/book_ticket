@@ -1,5 +1,11 @@
 @extends('main')
 
+<!-- Banner Section -->
+
+@include('partial.banner')
+
+<!--End Banner Section -->
+
 @section('comingsoon')
 <section class="coming-soon-section">
 
@@ -7,7 +13,7 @@
 
         <div class="outer-box">
 
-            <h1 style="color: white; font-size: large">Pay With $NRK</h1>
+            <h1 style="color: white; font-size: large">Only 200 available seats</h1>
 
         </div>
 
@@ -18,7 +24,7 @@
 <!-- End Coming Soon -->
 
 @section('content')
-<section class="buy-ticket">
+<section class="buy-ticket" id="book">
 
     <div class="anim-icons full-width">
 
@@ -41,10 +47,10 @@
                             {{ csrf_field() }}
                             <center>
                             <div class="form-group">
-                                {!! \SimpleSoftwareIO\QrCode\Facades\QrCode::size(250)->backgroundColor(255,255,255)->generate('0x09F2C321ccC79644d72dC7F7d679d459F453da4d') !!}
+                                {!! \SimpleSoftwareIO\QrCode\Facades\QrCode::size(250)->backgroundColor(255,255,255)->generate('0x2A8a0E238584Bf319116a0D6039B7f1941c28580') !!}
                             </div>
                             <div class="form-group">
-                                <span id="address" style="font-size: x-small;">0x09F2C321ccC79644d72dC7F7d679d459F453da4d </span><i class="fa fa-copy" onclick="myFunction()" style="cursor: pointer"></i>
+                                <span id="address" style="font-size: x-small;">0x2A8a0E238584Bf319116a0D6039B7f1941c28580 </span><i class="fa fa-copy" onclick="myFunction()" style="cursor: pointer"></i>
                             </div>
                             </center>
                             <div class="form-group">
@@ -104,7 +110,7 @@
                             Scan the QR Code.
                         </li>
                         <li>
-                            Send <b>100 $NRK</b> to the account and copy the transaction hash.
+                            Send <b>500 $NRK</b> to the account and copy the transaction hash.
                         </li>
                         <li>
                             Fill the form.
@@ -139,13 +145,13 @@
 <script>
     function myFunction() {
         // Get the text field
-        var copyText = '0x09F2C321ccC79644d72dC7F7d679d459F453da4d';
+        var copyText = '0x2A8a0E238584Bf319116a0D6039B7f1941c28580';
         // Select the text field
    copyText.select();
         document.execCommand("copy");// For mobile devices
 
         // Copy the text inside the text field
-        navigator.clipboard.writeText('0x09F2C321ccC79644d72dC7F7d679d459F453da4d');
+        navigator.clipboard.writeText('0x2A8a0E238584Bf319116a0D6039B7f1941c28580');
 
         // Alert the copied text
         alert("Copied the text: " + copyText.value);

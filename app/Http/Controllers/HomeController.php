@@ -58,23 +58,23 @@ class HomeController extends Controller
                 if(isset($result)) {
                     $value = round($result['value']/1000000000000000000);
 
-                    if($value < 99){
-                        $message = 'You are required to pay 100 $NRK';
+                    if($value < 499){
+                        $message = 'You are required to pay 500 $NRK';
                         return view('check')->with('message',$message);
                     }
 
                     //  if (($result['to']) !== $to_address) {
                     if(strcasecmp(($result['to']), $to_address) === 1){
-                        $message = 'You are required to pay 100 $NRK on this address '.$to_address;
+                        $message = 'You are required to pay 500 $NRK on this address '.$to_address;
                         return view('check')->with('message',$message);
                     }
 
                     $ticket->confirm_ticket = 1;
                     $ticket->save();
                     $eticket['date'] = date('d/m/Y',strtotime($ticket->created_at));
-                    $eticket['subject'] = 'N1 Mega Event';
+                    $eticket['subject'] = 'N1 Mega Event | Lakhnow Uttar Pardesh';
                     $eticket['ticket_no'] = '00'.$ticket->id;
-                    $eticket['event'] = 'N1 Mega Event';
+                    $eticket['event'] = 'Lakhnow Uttar Pardesh | N1 Mega Event';
                     $eticket['issued_to'] = $ticket->full_name;
                     $eticket['issued_by'] = 'N1 Events';
                     $email = new SendTicketEmail($eticket);
