@@ -71,9 +71,9 @@ class HomeController extends Controller
 
                     $ticket->confirm_ticket = 1;
                     $ticket->save();
-                    $eticket['date'] = date('d/m/Y',strtotime($ticket->created_at));
+                    $eticket['date'] = date('M d, Y',strtotime($ticket->created_at));
                     $eticket['subject'] = 'N1 Mega Event | Lakhnow Uttar Pardesh';
-                    $eticket['ticket_no'] = '00'.$ticket->id;
+                    $eticket['ticket_no'] = $ticket->id;
                     $eticket['event'] = 'Lakhnow Uttar Pardesh | N1 Mega Event';
                     $eticket['issued_to'] = $ticket->full_name;
                     $eticket['issued_by'] = 'N1 Events';

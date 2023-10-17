@@ -68,7 +68,7 @@
     <div class="ticket-info">
         <p><strong>Ticket ID:</strong> {{$ticket['ticket_no'] }}</p>
         <p><strong>Name:</strong> {{ $ticket['issued_to']  }}</p>
-        <p><strong>Ticket Date:</strong> {{date('M d, Y',strtotime($ticket['date']))}}</p>
+        <p><strong>Ticket Date:</strong> {{$ticket['date']}}</p>
         <p><strong>Price:</strong> 500 NRK</p>
     </div>
 </div>
