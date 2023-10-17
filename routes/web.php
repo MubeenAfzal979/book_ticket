@@ -16,7 +16,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+
+    $seats = \App\Models\Ticket::where('confirm_ticket',1)->count();
+    return view('welcome')->with('seats',200-$seats);
 })->name('welcome');
 
 Route::get('sample', function () {

@@ -1,10 +1,6 @@
 @extends('main')
 
-<!-- Banner Section -->
 
-@include('partial.banner')
-
-<!--End Banner Section -->
 
 @section('comingsoon')
 <section class="coming-soon-section">
@@ -13,7 +9,7 @@
 
         <div class="outer-box">
 
-            <h1 style="color: white; font-size: large">Only 200 available seats</h1>
+            <h1 style="color: white; font-size: large">Only {{$seats}} available seats</h1>
 
         </div>
 

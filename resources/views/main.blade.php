@@ -72,7 +72,11 @@
 
 
 
+    <!-- Banner Section -->
 
+   @include('partial.banner')
+
+    <!--End Banner Section -->
 
 
 
