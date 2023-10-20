@@ -14,7 +14,7 @@
 
                     <span class="title">N1 Mega Event</span>
 
-                    <h2> Lakhnow Uttar Pardesh <br>BHARAT</h2>
+                    <h2> Lucknow Uttar Pardesh <br>BHARAT</h2>
 
                     <ul class="info-list">
 
@@ -47,7 +47,7 @@
 
                     <span class="title">N1 Mega Event</span>
 
-                    <h2> Lakhnow Uttar Pardesh <br>BHARAT</h2>
+                    <h2> Lucknow Uttar Pardesh <br>BHARAT</h2>
                     <ul class="info-list">
 
                     </ul>
